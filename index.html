@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="page-loader">
+       <div></div>
+        <div></div>
+        <div></div>
+
+    </div>
+
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+
+    <div class="overlay">
+    </div>
+
+    <!-- Main Start-->
+    <div class="main hidden">
+
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">home</a></li>
+                                <li><a href="#about" class="nav-item link-item">about</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                            </ul>
+
+                        </div>
+
+                    </nav>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <section class="home-section align-items-center" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p>Hello, I'm</p>
+                    <h1>Puja goyal</h1>
+                    <h2>Full Stack Developer</h2>
+                    <a href="#about" class="btn link-item">more about me</a>
+                    <a href="#portfolio" class="btn link-item">portfolio</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="images/img.png" alt=""/>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+            </section>
+        <!--   About Section -->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>about me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="images/img.png" alt="about img"/>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>As an experienced developer, I have a wide range of skills and a keen interest in building dependable software solutions. I'm comfortable working with various programming languages such as C++, JAVA, JavaScript, HTML, and MySQL, which allows me to tackle both front-end and back-end tasks in projects. I specialize in using modern tools and frameworks like ReactJS, Spring Boot, and Bootstrap to create applications that are both responsive and scalable. I'm skilled at designing efficient systems using Microservice architecture and MVC patterns, and I streamline development processes with tools like Maven, Gradle, Junit, and Mockito. I'm also proficient in using version control systems like Git and Github, and I'm familiar with popular IDEs such as VSCode, Intellij IDEA, and Eclipse. Whether I'm collaborating with a team or working solo, my priority is always delivering top-notch code that meets the needs and expectations of clients.</p>
+                        <h3>skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">Data Structures</div>
+                            <div class="skill-item">Algorithms</div>
+                            <div class="skill-item">HTML/CSS</div>
+                            <div class="skill-item">Javascript</div>
+                            <div class="skill-item">C++</div>
+                            <div class="skill-item">Java</div>
+                            <div class="skill-item">Spring Boot</div>
+                            <div class="skill-item">MVC</div>
+                            <div class="skill-item">Maven/Gradle</div>
+                            <div class="skill-item">junit/Mockito</div>
+                            <div class="skill-item">MYSQL</div>
+                            <div class="skill-item">ReactJS</div>
+                            <div class="skill-item">Angular</div>
+                            <div class="skill-item">NodeJs</div>
+                            <div class="skill-item">Bootstrap</div>
+                            <div class="skill-item">Git/Github</div>
+                            <div class="skill-item">NodeJs</div>
+                            <div class="skill-item">VSCode/Intellij</div>
+                        </div>
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">education</button>
+                            <button type="button" class="tab-item" data-target="#experience">experience</button>
+                        </div>
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+
+                                <div class="timeline-item">
+                                    <span class="date">July, 2017 - May, 2022</span>
+                                    <h5>Mathematics and Computing</h5>
+                                    <h4>Integrated Msc - <span>Birla Institute of Technology Mesra, Ranchi</span></h4>
+
+                                    <p>
+                                        Courses: Operating Systems, Data Structures and Algorithms, Object Oriented Programming, DBMS, C/C++
+                                    </p>
+                                    <h6><span>CGPA : 7.6</span></h6>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">April, 2016 - May, 2017</span>
+                                    <h4>12th Board (CBSE) <span>Guru Nanak Higher Senior Secondary School, Ranchi</span></h4>
+                                    <p>PCM with Computer Science</p>
+                                    <h6><span>Percentage :</span> 73.8%</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+
+                                <div class="timeline-item">
+                                    <span class="date">March, 2023 - Present</span>
+                                    <h4>Full Stack Developer - <span>Easyops Technologies, Bengaluru Karnataka</span></h4>
+                                    
+                                    <h6>
+                                        Developed and managed backend services for a cloud-based retail software, enabling retailers to efficiently
+                                        manage orders, shipping, accounting, and inventory across various channels.
+                                    </h6>
+
+                                    <h6>Resolved bugs and implemented new features, increasing user satisfaction and platform usability by 20%.</h6>
+                                    <h6>Implemented Swift courier integration and developed its UI from scratch for Easyops platform</h6>
+                                    <h6>
+                                        Played a crucial role in migrating features to version 3 APIs, enhancing system performance and compatibility
+                                        by 30%.
+                                    </h6>
+                                    <h6>Created thorough test cases, achieving a test coverage of 95% to enhance code quality and reliability</h6>
+                                    <h6>
+                                        Documented API logic and contributed to technical documentation, resulting in a 25% increase in team
+                                        efficiency.
+                                    </h6>
+                                    
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">March, 2022 - August, 2022</span>
+                                    <h4>Intern <span>Wipro Limited, Bengaluru Karnataka</span></h4>
+                                    <h6>
+                                        Completed training in fundamental Java concepts and Spring Boot framework
+                                    </h6>
+                                    <h6>
+                                        Designed user-friendly e-commerce platform with strong admin features for product and order management.
+                                        Implemented customer functionalities including registration, product browsing, cart management, wish lists, and
+                                        discount coupon integration
+                                    </h6>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="Puja_Goyal_Full_Stack_Developer.pdf" target="_blank" class="btn" download="Puja_Goyal_Full_Stack_Developer.pdf">Download CV</a>
+                        <a href="#contact" class="btn link-item">contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>recent work</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/workinprogress.jpg" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">Cup and Cozy Cafe Website</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p></p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    
+                                    <li>Technologies Used - <span></span></li>
+                                    <li>View Online - <span><a href="#" target="_blank"></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/techblog.png" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">Tech Blogging Website</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    Built and maintained a Tech Blogging platform using React.js, allowing users to view and create posts about various
+                                    technologies on the home page of website.
+                                </p>
+                                <p>
+                                    Implemented essential features such as user registration, profile updates, profile picture uploads, login, logout, and post
+                                    creation, update, and deletion.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                             
+                                    <li>Technologies Used - <span>HTML, React, Node.js, Express.js and MongoDB.</span></li>
+                                    <li>View Online - <span><a href="#" target="_blank"></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/fastandfile.jpg" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">Fast and File Handler</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p></p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                 
+                                    <li>Technologies Used - <span></span></li>
+                                    <li>View Online - <span><a href="#" target="_blank"></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img style="width:100%; height:100%" src="images/ecom.png" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">E-commerce website</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p></p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    
+                                    <li>Technologies Used - <span></span></li>
+                                    <li>View Online - <span><a href="#" target="_blank"></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/excelclone.png" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">Google Sheet Clone</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>I made a Google Clone just using HTML-CSS and Javascript.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Github Link - <span><a href="https://github.com/Goyal-Puja/Google-Sheet-Clone" target="_blank">Goyal-Puja/Google-Sheet-Clone</a></span></li>
+                                    <li>Technologies Used - <span>HTML, CSS, Javascript, JQuery</span></li>
+                                    <li>View Online - <span><a href="#" target="_blank"></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/primegen.png" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">Prime Number Generator</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    Developed a project with a user interface using HTML, CSS, and JavaScript. It uses the Seive
+                                    Algorithm to generate prime numbers up to a specified limit
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Github Link - <span><a href="https://github.com/Goyal-Puja/PrimeNumberGenerator" target="_blank">Goyal-Puja/PrimeNumberGenerator</a></span></li>
+                                    <li>Technologies Used - <span>HTML, CSS, Javascript</span></li>
+                                    <li>View Online - <span><a href="https://primenumgenerator-5e6c1.web.app/" target="_blank">https://primenumgenerator-5e6c1.web.app/</a></span></li>
+                                </ul>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>contact me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                       <form>
+                           <div class="row">
+                               <div class="input-group">
+                                   <input type="text" placeholder="Name" class="input-control" required />
+                               </div>
+                               <div class="input-group">
+                                   <input type="text" placeholder="Email" class="input-control" required />
+                               </div>
+                               <div class="input-group">
+                                   <input type="text" placeholder="Subject" class="input-control" required />
+                               </div>
+                               <div class="input-group">
+                                   <textarea placeholder="Message" class="input-control" required ></textarea>
+                               </div>
+                               <div class="submit-btn">
+                                   <button type="submit" class="btn">send message</button>
+
+                               </div>
+                           </div>
+
+                       </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>goyalpuja48@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone</h3>
+                            <p>(+91)9546817778</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Follow me</h3>
+                            <div class="social-links">
+                                <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+
+                                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </div>
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                                
+                    <button type="button" class="btn pp-close"><i class="fa-solid fa-xmark"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="images/images.jpg" alt="project"/>
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                 <!--   <div class="description">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created - <span>12, May</span></li>
+                            <li>Technologies Used - <span>HTML, CSS, Javascript</span></li>
+                            <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+                        </ul>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
